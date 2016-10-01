@@ -3,4 +3,4 @@ languages:
 - csharp
 - javascript
 exclude:
-- /wwwroot/lib/.*.js
+- .*/lib/.*.js
