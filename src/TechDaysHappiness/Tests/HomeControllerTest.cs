@@ -33,7 +33,7 @@ namespace TechDaysHappiness.Tests
             var viewResult = Assert.IsType<ViewResult>(result);
 
             ViewDataDictionary viewData = viewResult.ViewData;
-            Assert.Equal("Your application description page.", viewData["Message"]);
+            Assert.Equal("Your application description page bla bla.", viewData["Message"]);
 
         }
     }
