@@ -4,5 +4,6 @@ build_script:
   - ps: dotnet --info
   - ps: dotnet restore
   - ps: dotnet --verbose build "src\TechDaysHappiness"
+  - ps: dotnet test "src\TechDaysHappiness"
 
 test: off
